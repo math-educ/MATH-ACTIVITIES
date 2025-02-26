@@ -136,41 +136,41 @@
 <script>
 // Array of questions with options and images
 var questions = [
-  { q: "It is a measurement used to analyze a data set by dividing it into four, ten or even a hundred equal parts.",
+  { q: "1. It is a measurement used to analyze a data set by dividing it into four, ten or even a hundred equal parts.",
 		options: [
 		"Measures of Central Tendency", 
 		"Measures of Position", 
 		"Measures of Dispersion", 
 		"Measures of Statistical Data"],
 	a: "Measures of Position"},
-  { q: "It is a division of a distribution into four equal parts.",
+  { q: "2. It is a division of a distribution into four equal parts.",
 		options: [
 		"Quartiles", 
 		"Percentiles", 
 		"Quantiles", 
 		"Deciles"],
 	a: "Quartiles"},
-  { q: "How many percent are there in the left side of the third quartile?",
+  { q: "3. It is a division of a distribution into a hundred equal parts.",
 		options: [
-		"25%", 
-		"50%", 
-		"75%", 
-		"60%"],
-	a: "75%"},
-  { q: "Which is NOT a name of the second quartile?",
+		"Deciles", 
+		"Percentiles", 
+		"Quantiles", 
+		"Deciles"],
+	a: "Quartiles"},
+  { q: "4. It is a division of a distribution into ten equal parts.",
 		options: [
-		"Midpoint of the set", 
-		"Lower quartile", 
-		"Middle quartile", 
-		"Decile 5"],
-	a: "Lower quartile"},
-  { q: "What is the equivalent of the 25th percentile in quartile?",
+		"Deciles", 
+		"Percentiles", 
+		"Quartiles", 
+		"Quantiles"],
+	a: "Deciles"},
+  { q: "5. It is a process when the location is not exactly a whole number.",
 		options: [
-		"Q1", 
-		"Q2", 
-		"Q3", 
-		"None of the above"],
-	a: "Q1"} ];
+		"Mendenhall Method", 
+		"Sincich Method", 
+		"Interpoation Method", 
+		"Midpoint Location Method"],
+	a: "Interpolation Method"} ];
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -239,7 +239,7 @@ window.onload = displayQuestions;
 <div class="container-box">
   <a href="index.html" class="home-btn">Home</a>
 <div class="container">
-  <h1>3rd Quarter Exam Review</h1>
+  <h1>Quiz on Measures of Position</h1>
   <div id="quiz"></div>
   <div id="feedback"></div>
 </div>
